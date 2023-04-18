@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "fontebugdroid";
+    src: url(fontes/idroid.otf) format("truetype");
+}
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');   
+
+
+body{
+    background-color: rgb(114, 182, 137);
+}
+header{
+    font-family:'Raleway', sans-serif;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(48,218,115,1) 100%);
+    margin: -7px;
+    margin-top: -21px;
+   
+    text-align: center;
+    color: white;
+}
+header > p{
+    font-size: 80%;
+}
+
+nav > a{
+    margin-right: 30px;
+    text-align: left;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+main{
+    background-color: white;
+    margin: 10px 10px 10px 10px
+}
+
+main > h1 {
+    text-align: justify;
+    width: 100%;
+    height: auto;
+    font-size: 180%;
+    margin: -10px 10px 10px 10px;
+    padding: 10px 10px 10px 0px;
+    font-family: "fontebugdroid";
+    color: green;
+
+}
+
+main > h2{
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 5px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(136,232,146,1) 0%, rgba(245,245,245,1) 100%);
+    font-family: "fontebugdroid";
+    font-size: 130%;
+    color: green;
+}
+
+
+main > p{
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+}
+
+img{
+    max-width: 97%; 
+    height: auto;
+    padding: 0px 10px 0px 10px;
+}
+
+article{
+    background-color: rgb(3, 54, 3);
+}
+
+article > video{
+    width: 90%;
+    height: auto;
+    padding: 17px 0px 17px 27px;
+}
+section{
+    background-color: rgb(149, 184, 149);
+    margin: 10px 10px 10px 10px;
+    padding:10px 10px 10px 10px ;
+    border-radius: 20px 20px 0px 0px;
+}
+
+section > h3{
+    text-align: justify;
+    margin: -10px -10px 10px -10px;
+    background-color: rgb(76, 168, 88);
+    padding: 10px 10px 10px 18px;
+    border-radius: 20px 20px 0px 0px;
+    color: white;
+}
+
+section > p{
+    text-align: justify;
+    margin: 10px 10px 10px 10px;
+}    
+
+section > a{
+    text-decoration: none;
+    color: black;
+}
+
+footer{
+    background-color: darkgreen;
+    text-align: center;
+    color: white;
+    margin: -6px -7px -15px -9px;
+}
